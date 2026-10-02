@@ -1,0 +1,69 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Backend
+backend/dist/
+backend/build/
+backend/.env
+backend/*.log
+backend/magicbricks.db
+backend/magicbricks.db-journal
+backend/server.log
+backend/server_log.txt
+backend/debug_log.txt
+
+# TypeScript
+*.tsbuildinfo
+
+# Flutter/Dart
+magicbricks_commercial/.dart_tool/
+magicbricks_commercial/.flutter-plugins
+magicbricks_commercial/.flutter-plugins-dependencies
+magicbricks_commercial/.packages
+magicbricks_commercial/.pub-cache/
+magicbricks_commercial/.pub/
+magicbricks_commercial/build/
+magicbricks_commercial/ios/Pods/
+magicbricks_commercial/ios/.symlinks/
+magicbricks_commercial/ios/Flutter/Flutter.framework
+magicbricks_commercial/ios/Flutter/Flutter.podspec
+magicbricks_commercial/android/.gradle/
+magicbricks_commercial/android/local.properties
+magicbricks_commercial/android/.idea/
+magicbricks_commercial/android/captures/
+magicbricks_commercial/android/gradlew
+magicbricks_commercial/android/gradlew.bat
+magicbricks_commercial/android/gradle/
+magicbricks_commercial/android/app/*.iml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+/tmp/
+
+# Screenshots
+*.png
+!magicbricks_commercial/assets/**/*.png
